@@ -63,6 +63,7 @@ ul, ol{
     color: #fff;
     position: absolute;
     top: 50%;
+    right: 25px;
 }
 .textodefoto p span{
     font-size: 45px;
@@ -80,6 +81,7 @@ ul, ol{
     width: 30%;
     height: 35px;
     font-size: 15px;
+    cursor: pointer;
 }
 .botondos{
     color: #fff;
@@ -88,6 +90,7 @@ ul, ol{
     width: 30%;
     height: 35px;
     font-size: 15px;
+    cursor: pointer;
 }
 h3{
     text-align: center;
@@ -120,18 +123,73 @@ h3 span{
     flex-flow: row wrap;
     justify-content: space-evenly;
 }
+.contiene img{
+    float: right;
+    width: 50%;
+    height: 400px;
+    box-shadow: 1px 5px 25px;
+}
 .textoimage{
     background-color: darkslategrey;
-    width: 400px;
-    height: 440px;
-    padding: 10px 10px;
+    width: 50%;
+    height: 400px;
     font-size: 15px;
-    line-height: 1.5;
     box-shadow: 1px 5px 25px;
     text-align: justify;
+    color: #fff;
+    font-size: large;
 }
-.textoimage img{
-    float: left;
-    width: 550px;
-    height: 400px;
+.textoimage p span{
+    font-size: x-large;
+}
+.textoimage button{
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff; 
+    width: 20%;
+    height: 35px;
+    font-size: 15px;
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    background-color: #057093;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+.formulario{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;  
+}
+.formulario input{
+    font-size: large;
+    padding: 0px 20px 0px 0px;
+}
+.texto{
+    text-align: center;
+}
+.texto input{
+    font-size: large;
+    padding: 0px 400px 200px 0px;
+    margin: 15px;
+}
+.botontres{
+    text-align: center;
+}
+.botontres button{
+    color: #fff;
+    background-color: green;
+    border: 1px solid green;
+    width: 30%;
+    height: 35px;
+    font-size: 15px;
+    padding: 0px 20px 20px 0px;
+    margin: 15px;
+    cursor: pointer;
 }
