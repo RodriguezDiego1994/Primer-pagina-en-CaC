@@ -1,0 +1,137 @@
+html{
+    height: auto;
+    min-height: 100%;
+}
+.cabezera{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkslategray;
+}
+.cabezera h1{
+    font-size: 15px;
+    color: #fff;
+}
+.nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    cursor: pointer;
+    padding: 15px;
+    margin: 0px 15px;
+}
+ul, ol{
+    list-style: none;
+    height: 40px;
+    border-radius: 15px;
+}
+.contnav{
+    display: flex;
+}
+.contnav li a{
+    color: dimgrey;
+    padding: 7px;
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.contnav li a:hover{
+    color: antiquewhite;
+    cursor: pointer;
+}
+.contnav li a span{
+    color: rgb(55, 141, 47);
+    cursor: pointer;
+}
+.contnav li a span:hover{
+    color: rgb(28, 248, 8);
+    cursor: pointer;
+}
+.imagen img{
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+.imagen{
+    width: 100%;
+    height: 600px;
+}
+.textodefoto{
+    font-size: x-large;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+}
+.textodefoto p span{
+    font-size: 45px;
+    color: #fff;
+}
+.contenedorbotones{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.botonuno{
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff; 
+    width: 30%;
+    height: 35px;
+    font-size: 15px;
+}
+.botondos{
+    color: #fff;
+    background-color: green;
+    border: 1px solid #fff;
+    width: 30%;
+    height: 35px;
+    font-size: 15px;
+}
+h3{
+    text-align: center;
+    color: gray;
+    font-weight: 50;
+}
+h3 span{
+    color: black;
+    font-size: xx-large;
+}
+.contenedor{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    position: relative;
+    padding: 5px;
+}
+.contenedororadores img{
+    text-align: center;
+    border: 1px solid #000;
+    width: 200px;
+    height: 200px;
+}
+.datosdeoradores p span{
+    font-weight: 500;
+    font-size: large;
+}
+.contiene{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.textoimage{
+    background-color: darkslategrey;
+    width: 400px;
+    height: 440px;
+    padding: 10px 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    box-shadow: 1px 5px 25px;
+    text-align: justify;
+}
+.textoimage img{
+    float: left;
+    width: 550px;
+    height: 400px;
+}
