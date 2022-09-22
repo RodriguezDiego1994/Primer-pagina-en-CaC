@@ -108,6 +108,10 @@ h3 span{
     position: relative;
     padding: 5px;
 }
+.contenedororadores{
+    padding: 15px;
+    border: 1px solid #000;
+}
 .contenedororadores img{
     text-align: center;
     border: 1px solid #000;
@@ -117,6 +121,10 @@ h3 span{
 .datosdeoradores p span{
     font-weight: 500;
     font-size: large;
+}
+.datosdeoradores p{
+    font-size: xx-small;
+    font-weight: 200;
 }
 .contiene{
     display: flex;
