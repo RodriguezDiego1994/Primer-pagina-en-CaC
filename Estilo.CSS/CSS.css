@@ -170,6 +170,11 @@ footer a{
     color: #fff;
     padding: 10px;
 }
+footer a:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
 .formulario{
     display: flex;
     flex-flow: row wrap;
@@ -177,27 +182,42 @@ footer a{
 }
 .formulario input{
     font-size: large;
-    padding: 0px 20px 0px 0px;
+    padding: 0px 40px 0px 20px;
 }
 .texto{
     text-align: center;
 }
 .texto input{
     font-size: large;
-    padding: 0px 400px 200px 0px;
+    padding: 0px 580px 200px 25px;
     margin: 15px;
+}
+.texto p{
+    font-size: small;
+    font-weight: 50;
 }
 .botontres{
     text-align: center;
 }
 .botontres button{
     color: #fff;
-    background-color: green;
-    border: 1px solid green;
-    width: 30%;
+    background-color: #84E33E;
+    border: 1px solid #84E33E;
+    width: 45%;
     height: 35px;
     font-size: 15px;
     padding: 0px 20px 20px 0px;
-    margin: 15px;
+    margin: 10px;
+    cursor: pointer;
+}
+.botontres:hover button{
+    color: #fff;
+    background-color: #03AE00;
+    border: 1px solid #03AE00;
+    width: 45%;
+    height: 35px;
+    font-size: 15px;
+    padding: 0px 20px 20px 0px;
+    margin: 10px;
     cursor: pointer;
 }
