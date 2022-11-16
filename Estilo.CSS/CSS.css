@@ -261,6 +261,10 @@ footer a:hover{
     font-size: large;
     padding: 0px 40px 0px 20px;
 }
+.total select{
+    font-size: large;
+    padding: 0px 40px 0px 20px;
+}
 .texto{
     text-align: center;
 }
